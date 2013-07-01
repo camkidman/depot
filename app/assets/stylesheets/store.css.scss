@@ -23,7 +23,16 @@
         margin-bottom: 5px;
         position: absolute;
     }
+    
+    p, div.price_line {
+        margin-left: 100px;
+        margin-top: 0.5em;
+        margin-bottom: 0.8em;
 
+        form, div {
+            display: inline;
+        }
+    }
     h3 {
         font-size: 120%;
         font-family: sans-serif;
